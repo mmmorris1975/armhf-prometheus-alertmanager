@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ver=${VERSION:="0.5.1"}
+ver=${VERSION:="0.7.1"}
 exp_name=alertmanager
 
 NAME=$(basename $(dirname $PWD/Dockerfile))
